@@ -1,0 +1,7 @@
+[submodule "themes/landscape"]
+	path = themes/landscape
+	url = https://github.com/hexojs/hexo-theme-landscape.git
+[submodule "themes/material"]
+	path = themes/material
+	url = https://github.com/cntanglijun/hexo-theme-material.git
+	branch = ryuu
