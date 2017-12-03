@@ -70,6 +70,18 @@ theme: material
 deploy:
   type:
 
+# Markdown
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
+
 # feed
 feed:
   type: atom
@@ -80,6 +92,11 @@ feed:
 # sitemap
 sitemap:
     path: sitemap.xml
+
+# search
+search:
+    path: search.xml
+    field: all
 
 # prism_plugin for highlight
 prism_plugin:
