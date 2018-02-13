@@ -1,12 +1,12 @@
 ---
-title: electron 基本概念
+title: Electron 基本概念
 categories: electron
 date: 2018-01-28 03:00:35
 tags:
 ---
 
 
-快速入门，以 [electron-quick-start](https://github.com/electron/electron-quick-start) 为例，介绍 electron 基本概念。
+快速入门，以 [electron-quick-start](https://github.com/electron/electron-quick-start) 为例，介绍 Electron 的基本概念。
 
 <!--more-->
 
@@ -150,7 +150,7 @@ app.on('activate', function () {
 
 # 总结
 
-一个最基本的 electron 应用包括：
+一个最基本的 Electron 应用包括：
 
 * package.json
 * main.js
