@@ -3,7 +3,6 @@ title: 前端面试题汇总
 date: 2015-09-09 10:28:51
 categories: interview
 tags: web
-top: true
 ---
 
 搜集和整理一些常见的前端面试题
