@@ -1,7 +1,7 @@
 ---
 title: 如何在 Fedora27 系统中安装 Jitamin
 tags:
-  - fedora27
+  - fedora
 categories: linux
 date: 2018-03-28 19:09:29
 ---
