@@ -1,7 +1,8 @@
 ---
 layout: new
 title: Fedora 开机自动启动 XX-Net
-tags: '-fedora'
+tags:
+  - fedora
 categories: linux
 date: 2018-05-12 01:12:26
 ---
