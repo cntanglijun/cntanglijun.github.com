@@ -1,5 +1,4 @@
 ---
-layout: new
 title: 解读 Layabox 示例 02
 tags:
   - es5
