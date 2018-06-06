@@ -65,19 +65,31 @@ Event 是事件类型的集合。[API 详情](https://layaair.ldc.layabox.com/ap
         function createApe() {
           ape = new Sprite();
 
-          ape.loadImage("../../res/apes/monkey2.png");
+          // 加载图片
+          ape.loadImage('./res/apes/monkey2.png');
+
+          // 添加图形到舞台中
           Laya.stage.addChild(ape);
+
+          // 设置中心点 (monkey2.png 110 * 145)
           ape.pivot(55, 72);
+
+          // 设置图形的 x 坐标
           ape.x = Laya.stage.width / 2;
+
+          // 设置图形的 y 坐标
           ape.y = Laya.stage.height / 2;
 
+          // 设置没 1 帧的动画
           Laya.timer.frameLoop(1, this, animate);
         }
 
         function animate(e) {
+
+          // 旋转角度增加 2 度
           ape.rotation += 2;
 
-          // 心跳缩放
+          // 设置心跳缩放比例
           scaleDelta += 0.02;
           var scaleValue = Math.sin(scaleDelta);
           ape.scale(scaleValue, scaleValue);
