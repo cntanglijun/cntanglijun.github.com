@@ -3,8 +3,8 @@
 set -e # Exit with nonzero exit code if anything fails
 
 # Set some git options
-git config --global user.name "cntanglijun"
-git config --global user.email "869058216@qq.com"
+git config user.name "cntanglijun"
+git config user.email "869058216@qq.com"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"

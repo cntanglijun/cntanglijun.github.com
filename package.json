@@ -8,6 +8,7 @@
   "scripts": {
     "start": "hexo clean && hexo s --draft --config _config.dev.yml",
     "testDeploy": "hexo clean && hexo generate --silent --config _config.dev.yml",
+    "build": "hexo clean && hexo generate --silent",
     "deploy": "hexo clean && hexo generate --silent && gh-pages -d public -b master -r git@github.com:cntanglijun/cntanglijun.github.io.git"
   },
   "dependencies": {

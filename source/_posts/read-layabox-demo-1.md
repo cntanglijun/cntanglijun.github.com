@@ -115,10 +115,6 @@ Handler 是事件处理器类。[API 详情](https://layaair.ldc.layabox.com/api
 </html>
 ```
 
-# 代码地址
-
-[https://github.com/cntanglijun/learn-layabox/blob/master/test1.html](https://github.com/cntanglijun/learn-layabox/blob/master/test1.html)
-
 # 参考资料
 
 * [https://www.layabox.com/](https://www.layabox.com/)

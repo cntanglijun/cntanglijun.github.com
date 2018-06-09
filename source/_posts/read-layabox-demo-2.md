@@ -98,10 +98,6 @@ date: 2018-05-30 12:11:17
 </html>
 ```
 
-# 代码地址
-
-[https://github.com/cntanglijun/learn-layabox/blob/master/test2.html](https://github.com/cntanglijun/learn-layabox/blob/master/test2.html)
-
 # 参考资料
 
 * [https://www.layabox.com](https://www.layabox.com)

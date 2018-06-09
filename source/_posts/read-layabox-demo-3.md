@@ -101,11 +101,6 @@ Event 是事件类型的集合。[API 详情](https://layaair.ldc.layabox.com/ap
 
 ```
 
-
-# 代码地址
-
-[https://github.com/cntanglijun/learn-layabox/blob/master/test3.html](https://github.com/cntanglijun/learn-layabox/blob/master/test3.html)
-
 # 参考资料
 
 * [https://www.layabox.com](https://www.layabox.com)

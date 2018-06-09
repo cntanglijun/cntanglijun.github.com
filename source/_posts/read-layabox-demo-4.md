@@ -1,9 +1,11 @@
 ---
 title: read-layabox-demo-4
-categories: layabox
 tags:
   - es5
+categories: layabox
+date: 2018-06-09 09:46:50
 ---
+
 
 本文记录第四个 layabox 引擎示例（`根据数据绘制路径`）
 
@@ -82,10 +84,6 @@ tags:
   </body>
 </html>
 ```
-
-# 代码地址
-
-[https://github.com/cntanglijun/learn-layabox/blob/master/test4.html](https://github.com/cntanglijun/learn-layabox/blob/master/test4.html)
 
 # 参考资料
 
