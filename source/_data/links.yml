@@ -1,34 +1,34 @@
 MOxFIVE:
   link: http://moxfive.xyz
   avatar: https://avatars3.githubusercontent.com/u/10032927?v=3&s=460
-  descr: "hexo theme yelee 的作者"
+  descr: "hexo theme yelee 的作者（Github）"
 
 Viosey:
   link: https://blog.viosey.com/
   avatar: https://avatars1.githubusercontent.com/u/8141232?v=3&s=460
-  descr: "hexo theme material 的作者"
-
-eplayed:
-  link: https://eplayed.github.io/myblog
-  avatar: https://eplayed.github.io/myblog/img/avatar.png
-  descr: "前端工程师"
+  descr: "hexo theme material 的作者（Github）"
 
 Koringz:
   link: https://koringz.github.io/
   avatar: https://avatars0.githubusercontent.com/u/13350327?v=3&s=460
-  descr: "基情骚年"
+  descr: "基情骚年（同学）"
+
+eplayed:
+  link: https://imaginemax.github.io/myblog/
+  avatar: https://avatars1.githubusercontent.com/u/18024636?s=400&v=4
+  descr: "前端工程师（同事）"
 
 croson:
   link: https://croson.github.io/
   avatar: https://avatars1.githubusercontent.com/u/23014183?s=460&v=4
-  descr: "前端工程师"
+  descr: "前端工程师（同事）"
 
 mojianhan:
   link: https://mojianhan.github.io/
   avatar: https://avatars1.githubusercontent.com/u/29293649?s=460&v=4
-  descr: "前端工程师"
+  descr: "前端工程师（同事）"
 
 Vett:
   link: http://newlooc.com/
   avatar: https://avatars2.githubusercontent.com/u/23411531?s=460&v=4
-  descr: "PHP 工程师"
+  descr: "PHP 工程师（同事）"
