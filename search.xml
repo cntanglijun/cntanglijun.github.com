@@ -1804,20 +1804,20 @@
   
     
     <entry>
-      <title>友情链接</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    <entry>
       <title>关于我</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<h1 id="我的语录"><a href="#我的语录" class="headerlink" title="我的语录"></a>我的语录</h1><ul><li>WEB 前端工程师，这个新型职业，在未来将是主流的职业。互联网是未来社会必不可少的，各种黑科技将接踵而至而人类又将迎来下一个里程碑式的跨越</li><li>人类总是保持着不断探索新事物的好奇心，这也是我们不停前进的动力</li><li>新时代，努力学习，努力健身，跟随祖国实现中国梦</li></ul><h1 id="我的学习之旅"><a href="#我的学习之旅" class="headerlink" title="我的学习之旅"></a>我的学习之旅</h1><ul><li><a href="/categories/psychology">心理学学习</a></li><li><a href="/categories/japanese">日语学习</a></li><li><a href="/categories/english">英语学习</a></li><li><a href="/categories/html">HTML 学习</a></li><li><a href="/categories/css">CSS 学习</a></li><li><a href="/categories/javascript">JavaScript 学习</a></li><li><a href="/categories/git">Git 学习</a></li><li><a href="/tags/android">Android 学习</a></li><li><a href="/categories/electron">Electron 学习</a></li><li><a href="/categories/essay">随笔</a></li></ul>]]></content>
+      
+    </entry>
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
