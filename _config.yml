@@ -110,12 +110,12 @@ html_minifier:
   exclude:
 
 css_minifier:
-  enable: true
+  enable: false
   exclude:
     - '*.min.css'
 
 js_minifier:
-  enable: true
+  enable: false
   mangle: true
   output:
   compress:
@@ -123,7 +123,7 @@ js_minifier:
     - '*.min.js'
 
 image_minifier:
-  enable: true
+  enable: false
   interlaced: false
   multipass: false
   optimizationLevel: 3
