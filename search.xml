@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>IOS 微信 webview 中 overflow 值 auto 不能正常工作</title>
+      <link href="/2018/11/29/ios-webview-overflow-auto-is-not-work/"/>
+      <url>/2018/11/29/ios-webview-overflow-auto-is-not-work/</url>
+      
+        <content type="html"><![CDATA[<p>在 IOS 系统中，微信 webview 中有时候页面加载完成，但是 <code>overflow: auto</code> 属性失效。</p><a id="more"></a><h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><h2 id="Safari-浏览器的渲染流程"><a href="#Safari-浏览器的渲染流程" class="headerlink" title="Safari 浏览器的渲染流程"></a>Safari 浏览器的渲染流程</h2><ol><li>构建 DOM Tree</li><li>构建 CSS Rule Tree</li><li>根据 DOM 和 CSS Tree 来构建 Render Tree</li><li>根据 Render Tree 计算页面的 Layout</li><li>Render 页面</li></ol><p>在第三步和第四部的时候，Safari 浏览器在构建 Render Tree 的时候，会预先找到相应的 <code>overflow: scroll</code> 元素，在计算页面 <code>Layout</code> 的时候，会计算父元素的高度与子元素的高度，若子元素高于父元素，则在 Render 页面时为其建立一个原生的 ScrollView。 也就是说在计算页面 <code>Layout</code> 的时候，子元素高度小于父元素高度则不会建立 ScrollView，也就不会有滚动条。</p><p><img src="./problem.gif" alt="problem"></p><h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>根据上述原理，得出解决方案，即在计算页面 <code>Layout</code> 时让子元素的高度大于父元素的高度，使其建立 ScrollView。</p><pre class=" language-html"><code class="language-html">Layout  .index    .inner      ...      div(style="height: calc(.5rem)")</code></pre><p>由于我的 <code>.inner</code> 元素高度为 <code>100%</code>，内部有许多异步渲染组件，由于数据返回延迟导致计算页面 <code>Layout</code> 时子元素高度小于等于父元素高度，无法建立 ScrollView。因此我在最后面加入一个临时元素设置一个高度，使其在组件渲染前将 <code>.inner</code> 的高度撑开并建立 ScrollView。</p><p><img src="./solve.gif" alt="solve"></p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://segmentfault.com/a/1190000016408566" target="_blank" rel="noopener">https://segmentfault.com/a/1190000016408566</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wechat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>IOS 微信 webview 中使用 alert 时不显示当前域名</title>
       <link href="/2018/11/28/do-not-show-host-in-ios-wx-webview-with-alert/"/>
       <url>/2018/11/28/do-not-show-host-in-ios-wx-webview-with-alert/</url>
