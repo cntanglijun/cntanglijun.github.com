@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search> 
   
+  
     
     <entry>
       <title>IOS 微信 webview 中 overflow 值 auto 不能正常工作</title>
@@ -25,6 +26,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>IOS 微信 webview 中使用 alert 时不显示当前域名</title>
       <link href="/2018/11/28/do-not-show-host-in-ios-wx-webview-with-alert/"/>
@@ -47,6 +50,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>IOS 中 input 输入框的一些怪异行为</title>
@@ -71,6 +76,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>移动端设置了 autofocus 属性的 input 标签无法打开输入法键盘</title>
       <link href="/2018/08/23/fail-to-open-keyboard-with-autofocus-of-input/"/>
@@ -93,6 +100,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>解读 Layabox 示例 10</title>
@@ -117,6 +126,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>解读 Layabox 示例 09</title>
       <link href="/2018/06/21/read-layabox-demo-9/"/>
@@ -139,6 +150,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>解读 Layabox 示例 08</title>
@@ -163,6 +176,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>解读 Layabox 示例 07</title>
       <link href="/2018/06/19/read-layabox-demo-7/"/>
@@ -185,6 +200,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>解读 Layabox 示例 06</title>
@@ -209,6 +226,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Fedora 系统中安装 travis</title>
       <link href="/2018/06/13/install-travis-on-fedora/"/>
@@ -231,6 +250,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>解读 Layabox 示例 05</title>
@@ -255,6 +276,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>解读 Layabox 示例 04</title>
       <link href="/2018/06/09/read-layabox-demo-4/"/>
@@ -277,6 +300,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>解读 Layabox 示例 03</title>
@@ -301,6 +326,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>解读 Layabox 示例 02</title>
       <link href="/2018/05/30/read-layabox-demo-2/"/>
@@ -323,6 +350,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>解读 Layabox 示例 01</title>
@@ -347,6 +376,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>JavaScript 文件分块上传</title>
       <link href="/2018/05/17/slice-file-for-upload/"/>
@@ -369,6 +400,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>使用 Adobe Illustrator 创建 svg 复合路径</title>
@@ -393,6 +426,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>使用 sunny-ngrok 做内网穿透</title>
       <link href="/2018/05/14/use-sunny-ngrok-to-network-penetration/"/>
@@ -415,6 +450,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>Fedora 开机自动启动 XX-Net</title>
@@ -439,6 +476,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Fedora 系统中安装 Gitlab</title>
       <link href="/2018/05/06/install-gitlab-on-fedora/"/>
@@ -461,6 +500,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>如何在 Fedora27 系统中安装 Jitamin</title>
@@ -485,6 +526,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Electron BrowserWindow 类</title>
       <link href="/2018/02/14/electron-browser-window/"/>
@@ -508,6 +551,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Electron 基本概念</title>
       <link href="/2018/01/28/electron-basic-concept/"/>
@@ -524,6 +569,8 @@
       
       
     </entry>
+    
+    
     
     <entry>
       <title>npmrc 中使用相关国内镜像</title>
@@ -548,6 +595,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>2017 总结</title>
       <link href="/2017/12/31/bye-bye-2017/"/>
@@ -564,6 +613,8 @@
       
       
     </entry>
+    
+    
     
     <entry>
       <title>如何配置以 nginx 作为服务器的 php 环境</title>
@@ -587,6 +638,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>JavaScript 栈</title>
@@ -613,6 +666,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>JavaScript 列表</title>
       <link href="/2017/09/02/js-list/"/>
@@ -637,6 +692,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>JavaScript 数组</title>
@@ -663,6 +720,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>计算阶乘</title>
       <link href="/2017/07/22/factorial/"/>
@@ -688,6 +747,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>动词ない形的变换规则</title>
       <link href="/2017/04/18/the-conversion-of-nai/"/>
@@ -710,6 +771,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>动词て形的变换规则</title>
@@ -734,6 +797,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>关于微信缩略图无法获取</title>
       <link href="/2017/04/08/about-wechat-thumbnail-no-longer-supported/"/>
@@ -756,6 +821,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>css4 可变性伪类</title>
@@ -780,6 +847,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>css4 可选性伪类</title>
       <link href="/2017/03/15/css4-optionality-pseudo-class/"/>
@@ -802,6 +871,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>css4 范围伪类</title>
@@ -826,6 +897,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>css4 时间维度伪类</title>
       <link href="/2017/03/13/css4-time-dimensional-pseudo-class/"/>
@@ -848,6 +921,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>css4 不确定值伪类</title>
@@ -872,6 +947,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>css4 默认项伪类</title>
       <link href="/2017/03/13/css4-default-option-pseudo-class/"/>
@@ -894,6 +971,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>css4 本地链接伪类</title>
@@ -918,6 +997,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>css4 匹配任何伪类</title>
       <link href="/2017/03/12/css4-matches-any-pseudo-class/"/>
@@ -940,6 +1021,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>css4 否定伪类</title>
@@ -964,6 +1047,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>从手势看出蛛丝马迹，看谁还对你撒谎</title>
       <link href="/2017/02/18/gesture/"/>
@@ -986,6 +1071,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>从众心理</title>
@@ -1010,6 +1097,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>微表情-微笑</title>
       <link href="/2016/11/24/micro-expression-smile/"/>
@@ -1033,6 +1122,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Electron 入门</title>
       <link href="/2016/11/14/electron-quick-start/"/>
@@ -1055,6 +1146,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>react-native 搭建 android 开发环境之 mac 篇</title>
@@ -1083,6 +1176,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>react-native 搭建 android 开发环境之 windows 篇</title>
       <link href="/2016/10/29/react-native-android-with-windows/"/>
@@ -1110,6 +1205,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>开始使用下一代的 Javascript! 那就别犹豫，Babel 是最好的选择</title>
       <link href="/2016/08/13/babel/"/>
@@ -1132,6 +1229,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>Windows 下的包管理工具 chocolatey</title>
@@ -1156,6 +1255,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>视差滚动设计</title>
       <link href="/2016/04/10/parallax-scrolling/"/>
@@ -1178,6 +1279,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>配置多个 ssh key</title>
@@ -1202,6 +1305,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>你知道 pjax 吗？</title>
       <link href="/2016/03/25/pjax/"/>
@@ -1224,6 +1329,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>如何在 Github 社区团队开发</title>
@@ -1248,6 +1355,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>初识 chrome 扩展</title>
       <link href="/2016/03/21/extension-chrome/"/>
@@ -1270,6 +1379,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>HTML 中的 &lt;meta&gt;</title>
@@ -1294,6 +1405,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>ECMAScript2015(6) Functions</title>
       <link href="/2016/03/15/es6-functions/"/>
@@ -1316,6 +1429,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>最新可用的免费 vpn</title>
@@ -1340,6 +1455,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>初识 firefox 扩展</title>
       <link href="/2016/02/03/extension-firefox/"/>
@@ -1362,6 +1479,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>git 命令之 log</title>
@@ -1386,6 +1505,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>git 命令之 commit</title>
       <link href="/2016/01/29/git-command-commit/"/>
@@ -1408,6 +1529,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>git 命令之 status</title>
@@ -1432,6 +1555,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>git 命令之 add</title>
       <link href="/2016/01/27/git-command-add/"/>
@@ -1454,6 +1579,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>git 命令之 clone</title>
@@ -1478,6 +1605,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>git 命令之 init</title>
       <link href="/2016/01/25/git-command-init/"/>
@@ -1500,6 +1629,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>git 命令之 config</title>
@@ -1524,6 +1655,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>开学学习魔方还原</title>
       <link href="/2016/01/09/begin-to-learn-cube/"/>
@@ -1546,6 +1679,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>ECMAScript2015(6) RegExp</title>
@@ -1570,6 +1705,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>ECMAScript2015(6) Number</title>
       <link href="/2015/12/29/es6-number-extention/"/>
@@ -1592,6 +1729,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>ECMAScript2015(6) String</title>
@@ -1616,6 +1755,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>ECMAScript2015(6) Block Bindings</title>
       <link href="/2015/12/21/es6-block-bindings/"/>
@@ -1638,6 +1779,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>工厂模式</title>
@@ -1662,6 +1805,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>单体模式</title>
       <link href="/2015/09/25/js-pattern-singleton/"/>
@@ -1684,6 +1829,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>javascript中的继承</title>
@@ -1708,6 +1855,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>前端面试题汇总</title>
       <link href="/2015/09/09/exam-of-interview/"/>
@@ -1730,6 +1879,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>使用requirejs</title>
@@ -1754,6 +1905,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>富有表现力的 javascript</title>
       <link href="/2015/08/19/attractive-javascript/"/>
@@ -1776,6 +1929,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>初学Javascript</title>
@@ -1800,6 +1955,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>javascript 闭包</title>
       <link href="/2015/08/17/javascript-closure/"/>
@@ -1822,6 +1979,8 @@
         </tags>
       
     </entry>
+    
+    
     
     <entry>
       <title>使用 Hexo 搭建 github 博客</title>
@@ -1846,6 +2005,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>使用 Jekyll 搭建 github 博客</title>
       <link href="/2015/07/14/jekyll-github-blog/"/>
@@ -1869,8 +2030,10 @@
       
     </entry>
     
+    
   
   
+    
     
     <entry>
       <title>关于我</title>
@@ -1881,6 +2044,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>友情链接</title>
       <link href="/links/index.html"/>
@@ -1890,6 +2055,8 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
@@ -1898,6 +2065,7 @@
         <content type="html"><![CDATA[]]></content>
       
     </entry>
+    
     
   
 </search>
