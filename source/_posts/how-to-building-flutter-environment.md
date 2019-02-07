@@ -1,10 +1,12 @@
 ---
 title: 构建 Flutter 开发环境
-categories: dart
 tags:
   - flutter
   - android
+categories: dart
+date: 2019-02-07 18:03:07
 ---
+
 
 本文纪录不使用 Android Studio 构建 Flutter 开发环境，通过命令行工具更灵活。
 
@@ -28,6 +30,23 @@ tags:
 
 现在我们需要设置环境变量以便在控制台使用 SDK 相关的命令。
 
+## Windows
+
+打开 `cmd` 执行下面的命令
+
+```
+setx ANDROID_HOME "C:\Android"
+setx JAVA_HOME "C:\Java\jdk1.8.0_202"
+setx PATH "%PATH%C:\flutter\bin"
+setx PATH "%PATH%%ANDROID_HOME%/tools/bin"
+```
+
+> 注意：AMD CPU 的电脑需要启动 Control Panel -> Programs -> Hyper-V & Windows Hypervisor Platform，否则会报以下错误
+>
+> emulator: ERROR: x86_64 emulation currently requires hardware acceleration!
+> Please ensure Windows Hypervisor Platform (WHPX) is properly installed and usable.
+> CPU acceleration status: Android Emulator requires an Intel processor with VT-x and NX support.  Your CPU: 'AuthenticAMD'
+
 ## Mac
 
 在 `$HOME/.bash_profile` 中添加以下内容
@@ -39,7 +58,19 @@ export PATH=${PATH}:${ANDROID_HOME}/tools/bin
 export PATH=${PATH}:$HOME/flutter/bin
 ```
 
-测试 Flutter 可以使用
+## Linux
+
+在 `$HOME/.bash_profile` 中添加以下内容
+
+```
+export ANDROID_HOME=$HOME/Documents/android
+export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64
+export PATH=$PATH:$HOME/Documents/flutter/bin
+export PATH=$PATH:$HOME/Documents/android/tools
+export PATH=$PATH:$HOME/Documents/android/tools/bin
+```
+
+## 测试 Flutter 可以使用
 
 ```
 flutter --version
@@ -50,7 +81,7 @@ Engine • revision 7375a0f414
 Tools • Dart 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 ```
 
-测试 sdkmanager 可以使用
+## 测试 sdkmanager 可以使用
 
 ```
 sdkmanager --version
@@ -133,3 +164,4 @@ open -a Simulator
 # 参考资料
 
 * [https://flutter.io/](https://flutter.io/)
+* [https://developer.android.com/studio/#downloads](https://developer.android.com/studio/#downloads)
