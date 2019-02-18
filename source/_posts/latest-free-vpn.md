@@ -16,7 +16,7 @@ top: true
 
 ![xx-net](./xx-net.png 'xx-net')
 
-项目地址：**[https://github.com/XX-net/XX-Net](https://github.com/XX-net/XX-Net 'XX-Net')**
+* 项目地址：[https://github.com/XX-net/XX-Net](https://github.com/XX-net/XX-Net 'XX-Net')
 
 ## Lantern
 
@@ -24,8 +24,8 @@ Lantern 是一个免费的应用程序。它能帮助你随时随地快速、可
 
 ![lantern](./lantern.png 'lantern')
 
-项目地址：**[https://github.com/getlantern/lantern](https://github.com/getlantern/lantern 'Lantern')**
-官方网站：**[https://getlantern.org/](https://getlantern.org/ 'Lantern')**
+* 项目地址：[https://github.com/getlantern/lantern](https://github.com/getlantern/lantern 'Lantern')
+* 官方网站：[https://getlantern.org/](https://getlantern.org/ 'Lantern')
 
 ## Psiphon
 
@@ -33,8 +33,8 @@ Lantern 是一个免费的应用程序。它能帮助你随时随地快速、可
 
 ![psiphon](./psiphon.png 'psiphon')
 
-官方网站：**[http://psiphon-labs.github.io/](http://psiphon-labs.github.io/ 'Psiphon')**
-项目地址 **[https://github.com/Psiphon-Labs](https://github.com/Psiphon-Labs)**
+* 官方网站：[http://psiphon-labs.github.io/](http://psiphon-labs.github.io/ 'Psiphon')
+* 项目地址：[https://github.com/Psiphon-Labs](https://github.com/Psiphon-Labs)
 
 ## Shadowsocks
 
@@ -44,4 +44,12 @@ Shadowsocks（中文名称：影梭）是使用 Python、C++、C# 等语言开�
 
 ![Shadowsocks](./Shadowsocks.png 'Shadowsocks')
 
-项目地址 **[https://github.com/shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows)**
+* 项目地址 [https://github.com/shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows)
+
+## Freegate
+
+自由门（英语：Freegate）是动态网公司开发的一种破网软件，一般用来突破中华人民共和国政府创建的防火长城以浏览被当局屏蔽的网站或收发邮件。由于防火长城不断加强封锁，所以该软件也不断升级以突破防火长城。除了中国大陆，在伊朗、叙利亚、阿联酋等含有互联网审查的国家中也有很多用户使用该软件访问被其政府屏蔽的网站。
+
+![Freegate](./Freegate.png 'Freegate')
+
+* 官方网站：[http://dongtaiwang.com/loc/download.php](http://dongtaiwang.com/loc/download.php)
