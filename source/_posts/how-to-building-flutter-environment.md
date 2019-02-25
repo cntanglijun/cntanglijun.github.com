@@ -38,7 +38,7 @@ date: 2019-02-07 18:03:07
 setx ANDROID_HOME "C:\Android"
 setx JAVA_HOME "C:\Java\jdk1.8.0_202"
 setx PATH "%PATH%C:\flutter\bin"
-setx PATH "%PATH%%ANDROID_HOME%/tools/bin"
+setx PATH "%PATH%%ANDROID_HOME%\tools\bin"
 ```
 
 > 注意：AMD CPU 的电脑需要启动 Control Panel -> Programs -> Hyper-V & Windows Hypervisor Platform，否则会报以下错误
