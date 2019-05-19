@@ -226,6 +226,19 @@ describe('Testing about geting the repositories that stars greater than 200000',
   let res = null
 
   before(async function () {
+    console.log(JSON.stringify({
+      incomplete_results: false,
+      total_count: 2,
+      items: [
+        {
+          // ...
+        },
+        {
+          // ...
+        }
+      ]
+    }, null, 2))
+
     res = await axios.get(apiUrl, {
       params: {
         q: 'stars:>200000'
@@ -256,7 +269,7 @@ describe('Testing about geting the repositories that stars greater than 200000',
       })
 
       it('The length of items should equal total_count', function () {
-        expect(res.items).to.be.a('array')
+        expect(res.items.length).to.equal(res.total_count)
       })
     })
   })
