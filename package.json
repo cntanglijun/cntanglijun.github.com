@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.8.0"
+    "version": "3.9.0"
   },
   "scripts": {
     "start": "hexo clean && hexo s --draft --config _config.dev.yml",
@@ -11,8 +11,7 @@
     "build": "hexo clean && hexo generate --silent"
   },
   "dependencies": {
-    "gh-pages": "^0.12.0",
-    "hexo": "^3.8.0",
+    "hexo": "^3.9.0",
     "hexo-all-minifier": "0.0.14",
     "hexo-cli": "^1.1.0",
     "hexo-generator-archive": "^0.1.4",
