@@ -13,7 +13,7 @@ Windows Terminal 的采坑记录
 
 # Windows Terminal
 
-![](https://note.youdao.com/yws/res/40879/WEBRESOURCE2cc7445ad871398ee0d0e25c6cff79c9)
+![](./2.png)
 
 Windows Terminal 是一个全新的、流行的、功能强大的命令行终端工具。包含很多来社区呼声很高的特性，例如：多 Tab 支持、富文本、多语言支持、可配置、主题和样式，支持 emoji 和基于 GPU 运算的文本渲染等等
 
@@ -23,7 +23,7 @@ Windows Terminal 是一个全新的、流行的、功能强大的命令行终端
 
 我们可以通过 Microsoft Store 安装 Windows Terminal，也可以通过官方仓库手动编译 Windows Terminal。我推荐在 Microsoft Store 安装，因为这种方式最方便 (1)
 
-![](https://note.youdao.com/yws/res/40882/WEBRESOURCE04db151182ac44c730bb8844cdcd0cd6)
+![](./3.png)
 
 ## WSL
 
@@ -33,19 +33,19 @@ Windows Subsystem for Linux(简称 WSL) 是一个在 Windows 10 上能够运行�
 
 进入控制面板，添加程序功能 `Windows Subsystem for Linux` 并重启电脑
 
-![](http://note.youdao.com/yws/res/40801/WEBRESOURCEa19c7045a57983056a9520e2c8dc2e10)
+![](./1.png)
 
 ### 安装 Ubuntu
 
 那么我们以 Ubuntu 为例，来演示如何在 Windows 10 中运行 Linux 系统，同样我们在 Microsoft Store 安装 Ubuntu
 
-![](https://note.youdao.com/yws/res/40886/WEBRESOURCE715164236db17c4ea74102e2496df178)
+![](./4.png)
 
 ## 配置 WT
 
 在 WT 的 Tab 下拉菜单中选择 Setting，打开 profiles.json (3)
 
-![](https://note.youdao.com/yws/res/40891/WEBRESOURCEb19818d4a22d3e5bd74ecfb7f4889097)
+![](./5.png)
 
 添加关于 Ubuntu 的配置
 
@@ -70,15 +70,11 @@ Windows Subsystem for Linux(简称 WSL) 是一个在 Windows 10 上能够运行�
 }
 ```
 
-![](https://note.youdao.com/yws/res/40894/WEBRESOURCE4f0b2914c1a561aa9d55d60c4d6176af)
+![](./6.png)
 
-> 注意：guid 需要在 PowerShell 中执行 `new-guid` 命令
+注意：guid 需要在 PowerShell 中执行 `new-guid` 命令
 
-```bash
-new-guid
-```
-
-![](https://note.youdao.com/yws/res/40897/WEBRESOURCEaa41ae3999442614806853940feeec62)
+![](./7.png)
 
 ## WT 相关资源存储路径
 
