@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Docker In WSL</title>
+      <link href="/2019/07/16/docker-in-wsl/"/>
+      <url>/2019/07/16/docker-in-wsl/</url>
+      
+        <content type="html"><![CDATA[<p>WSL 虽说可以让我们在 Windows 中运行 Linux，但是它对 Docker 的支持还并不完美</p><h1 id="Docker-In-WSL"><a href="#Docker-In-WSL" class="headerlink" title="Docker In WSL"></a>Docker In WSL</h1><p>Windows 的 WSL 功能允许在 Windows 中运行 Linux 子系统，但是 WSL 不支持 Docker Daemon，因此虽然 <code>docker -v</code> 可以正常执行，但是 <code>docker run hello-world</code> 报错 <code>docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.</code></p><p><img src="./1.png" alt></p><h2 id="安装-Docker-For-Windows"><a href="#安装-Docker-For-Windows" class="headerlink" title="安装 Docker For Windows"></a>安装 Docker For Windows</h2><p>没有办法，那么我们就在宿主机上安装 <a href="https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe" target="_blank" rel="noopener">Docker For Windows</a>，在设置里面勾选 <code>Expose daemon on tcp://localhost:2375 without TLS</code></p><p><img src="./2.png" alt></p><h2 id="配置-bashrc"><a href="#配置-bashrc" class="headerlink" title="配置 .bashrc"></a>配置 .bashrc</h2><p>为了每次打开 WSL 终端自动连接宿主机上的 Docker，需要在 <code>.bashrc</code> 文件中做相关配置</p><p><img src="./3.png" alt></p><h2 id="今晚吃鸡"><a href="#今晚吃鸡" class="headerlink" title="今晚吃鸡"></a>今晚吃鸡</h2><p>好了，现在是到了见证奇迹的时候了，打开 Windows Terminal 输入 <code>docker run hello-world</code></p><p><img src="./4.png" alt></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://my.oschina.net/u/3628490/blog/1865780" target="_blank" rel="noopener">https://my.oschina.net/u/3628490/blog/1865780</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> terminal </tag>
+            
+            <tag> docker </tag>
+            
+            <tag> wsl </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows Terminal</title>
       <link href="/2019/07/14/windows-terminal/"/>
       <url>/2019/07/14/windows-terminal/</url>
