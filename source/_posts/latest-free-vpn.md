@@ -44,7 +44,7 @@ Shadowsocks（中文名称：影梭）是使用 Python、C++、C# 等语言开�
 
 ![Shadowsocks](./Shadowsocks.png 'Shadowsocks')
 
-* 项目地址 [https://github.com/shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows)
+* 项目地址：[https://github.com/shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows)
 
 ## Freegate
 
@@ -53,3 +53,11 @@ Shadowsocks（中文名称：影梭）是使用 Python、C++、C# 等语言开�
 ![Freegate](./Freegate.png 'Freegate')
 
 * 官方网站：[http://dongtaiwang.com/loc/download.php](http://dongtaiwang.com/loc/download.php)
+
+## New-Pac
+
+new-pac 项目提供了许多自由上网的方法集合
+
+![New-Pac](./new-pac.png 'New-Pac')
+
+* 项目地址：[https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
