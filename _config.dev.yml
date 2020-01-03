@@ -91,12 +91,12 @@ feed:
 
 # sitemap
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 
 # search
 search:
-    path: search.xml
-    field: all
+  path: search.xml
+  field: all
 
 # prism_plugin for highlight
 prism_plugin:
@@ -105,27 +105,3 @@ prism_plugin:
   line_number: false
 
 # optimization
-html_minifier:
-  enable: false
-  exclude:
-
-css_minifier:
-  enable: false
-  exclude:
-    - '*.min.css'
-
-js_minifier:
-  enable: false
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '*.min.js'
-
-image_minifier:
-  enable: false
-  interlaced: false
-  multipass: false
-  optimizationLevel: 3
-  pngquant: false
-  progressive: false
