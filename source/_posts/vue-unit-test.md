@@ -1,9 +1,11 @@
 ---
 title: VUE 单元测试
-categories: architect
 tags:
   - unit test
+categories: architect
+date: 2020-01-03 15:44:19
 ---
+
 
 养成良好的编码习惯，一个合格的程序员需要掌握一些编写单元测试的能力。单元测试也可以整体上提升我们的代码质量，这里介绍下 VUE 组件的单元测试。
 
