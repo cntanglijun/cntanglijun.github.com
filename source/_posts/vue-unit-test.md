@@ -31,7 +31,6 @@ date: 2020-01-03 15:44:19
 
 ```js
 // Karma configuration
-// Generated on Thu Jan 02 2020 15:03:54 GMT+0800 (GMT+08:00)
 
 const webpackConfig = require('./config/webpack.test.config.js')
 
@@ -46,16 +45,22 @@ module.exports = function(config) {
     frameworks: [ 'mocha' ],
 
     // list of files / patterns to load in the browser
-    files: [ 'test/**/*.spec.js' ],
+    files: [
+      'test/**/*.spec.js'
+    ],
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      '**/*.spec.js': [ 'webpack','sourcemap' ]
+      'test/**/*.spec.js': [ 'webpack', 'sourcemap' ]
     },
 
     // webpack config
     webpack: webpackConfig,
+
+    webpackMiddleware: {
+      stats: 'errors-only'
+    },
 
     // web server port
     port: 9876,
@@ -122,7 +127,7 @@ describe('Header', () => {
 })
 ```
 
-这里我引用 [vue-boilerplate](https://github.com/cntanglijun/vue-boilerplate) 的 `Header` 组件测试用例
+这里我引用 [vue-single-page](https://github.com/cntanglijun/web-building-boilerplates/blob/master/vue-single-page/src/components/Header/index.vue) 的 `Header` 组件测试用例
 
 * 首先通过 `shallowMount` 获取 `wrapper`
 * 使用 `chai` 断言库编写相关的测试用例
@@ -130,46 +135,11 @@ describe('Header', () => {
 ## 运行结果
 
 ```txt
-i ｢wdm｣: Hash: 33f2ae8f2088d2977880
-Version: webpack 4.41.5
-Time: 1785ms
-Built at: 2020-01-02 19:00:36
-              Asset      Size  Chunks             Chunk Names
-        1.bundle.js  65.9 KiB       1  [emitted]
-        2.bundle.js  31.9 KiB       2  [emitted]
-            main.js   415 KiB       0  [emitted]  main
-test\Header.spec.js  1.29 MiB       3  [emitted]  test\Header.spec
-Entrypoint main = main.js
-Entrypoint test\Header.spec = test\Header.spec.js
- [0] ./src/main.js 301 bytes {0} [built]
- [1] ./node_modules/vue/dist/vue.esm.js 319 KiB {0} {3} [built]
- [2] (webpack)/buildin/global.js 472 bytes {0} {3} [built]
- [3] ./node_modules/timers-browserify/main.js 1.97 KiB {0} {3} [built]
- [5] ./node_modules/process/browser.js 5.29 KiB {0} {3} [built]
- [6] ./src/App.vue 966 bytes {0} [built]
- [7] ./src/App.vue?vue&type=template&id=7ba5bd90& 195 bytes {0} [built]
- [9] ./node_modules/vue-loader/lib/runtime/componentNormalizer.js 2.63 KiB {0} {3} [built]
-[10] ./src/router.js 381 bytes {0} [built]
-[11] ./node_modules/vue-router/dist/vue-router.esm.js 72 KiB {0} [built]
-[12] ./src/pages/Home/index.vue 1.37 KiB {1} [built]
-[20] ./src/components/Header/index.vue 1.2 KiB {1} {2} {3} [built]
-[56] ./test/Header.spec.js 665 bytes {3} [built]
-[57] ./node_modules/chai/index.js 40 bytes {3} [built]
-[95] ./node_modules/@vue/test-utils/dist/vue-test-utils.js 382 KiB {3} [built]
-    + 82 hidden modules
 i ｢wdm｣: Compiled successfully.
-02 01 2020 19:00:37.446:INFO [karma-server]: Karma v4.4.1 server started at http://0.0.0.0:9876/
-02 01 2020 19:00:37.454:INFO [launcher]: Launching browsers Chrome with concurrency unlimited
-02 01 2020 19:00:37.469:INFO [launcher]: Starting browser Chrome
-02 01 2020 19:00:40.606:INFO [Chrome 79.0.3945 (Windows 10.0.0)]: Connected on socket KdneZ66Ws38cHm1mAAAA with id 77158009
-
-  Header
-    √ 有 header 标签
-    √ 有 h1 标签
-    √ h1 的文案为“VUE 单页模版”
-    √ h1 标签在 header 标签中
-
-Chrome 79.0.3945 (Windows 10.0.0): Executed 4 of 4 SUCCESS (0.021 secs / 0.004 secs)
+15 01 2020 18:28:13.799:INFO [karma-server]: Karma v4.4.1 server started at http://0.0.0.0:9876/
+15 01 2020 18:28:13.813:INFO [launcher]: Launching browsers Chrome with concurrency unlimited
+15 01 2020 18:28:13.820:INFO [launcher]: Starting browser Chrome
+15 01 2020 18:28:17.075:INFO [Chrome 79.0.3945 (Windows 10.0.0)]: Connected on socket PUKPz4iBuFzeVNSsAAAA with id 91716917
 TOTAL: 4 SUCCESS
 ```
 
@@ -192,7 +162,7 @@ const testConfig = {
   module: {
     rules: [
       {
-        test: /\.js$/i,
+        test: /\.spec.js$/i,
         enforce: 'pre',
         use: [
           {
@@ -210,7 +180,7 @@ const testConfig = {
 module.exports = merge(webpackCommonConfig, testConfig)
 ```
 
-* 添加一个优先执行的编译 `.js` 文件的 `rules`，`loader` 使用 `istanbul-instrumenter-loader` 并开启 `esModules` 模式
+* 添加一个优先执行的编译 `.spec.js` 文件的 `rules`，`loader` 使用 `istanbul-instrumenter-loader` 并开启 `esModules` 模式
 
 ### karma.conf.js
 
@@ -221,7 +191,7 @@ module.exports = function(config) {
     // ...
 
     coverageIstanbulReporter: {
-      reports: [ 'html', 'text-summary' ],
+      reports: [ 'html', 'text' ],
       fixWebpackSourcePaths: true
     },
 
@@ -238,15 +208,15 @@ module.exports = function(config) {
 
 ### 运行结果
 
-再次执行单元测试，我们会看到测试覆盖率的摘要
+再次执行单元测试，我们会看到测试覆盖率的相关信息
 
 ```txt
-=============================== Coverage summary ===============================
-Statements   : 100% ( 12/12 )
-Branches     : 100% ( 0/0 )
-Functions    : 100% ( 5/5 )
-Lines        : 100% ( 12/12 )
-================================================================================
+----------------|----------|----------|----------|----------|-------------------|
+File            |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+----------------|----------|----------|----------|----------|-------------------|
+All files       |      100 |      100 |      100 |      100 |                   |
+ Header.spec.js |      100 |      100 |      100 |      100 |                   |
+----------------|----------|----------|----------|----------|-------------------|
 ```
 
 也可以通过生成到 `coverage` 目录下的网页文件，在浏览器中查看
