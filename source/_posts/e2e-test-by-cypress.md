@@ -20,7 +20,7 @@ E2E 测试即 End to End，也就是端到端测试，属于黑盒测试。通�
 
 安装 cypress
 
-```bash
+```
 npm i cypress eslint-plugin-cypress -D
 ```
 
@@ -36,7 +36,7 @@ npm i cypress eslint-plugin-cypress -D
 
 运行 cypress
 
-```bash
+```
 node_modules/.bin/cypress open
 ```
 
