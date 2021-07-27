@@ -94,3 +94,7 @@ mobx 在 react 社区很流行，而 vue 实际上也采用了几乎相同的反
 #### preact 和其他类 react 库
 
 类 react 库往往尽可能地与 react 共享 api 和生态，因此上述比较对它们同样适用。它们与 react 的不同在于更小的生态，由于无法 100% 兼容 react 生态中的全部，一些工具和辅助库可能无法使用，或多或少会出现兼容问题
+
+### 参考资料
+
+* [https://cn.vuejs.org/v2/guide/comparison.html](https://cn.vuejs.org/v2/guide/comparison.html)
